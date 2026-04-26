@@ -21,7 +21,7 @@
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^8.59.0",
-    "@typescript-eslint/parser": "^7.16.0",
+    "@typescript-eslint/parser": "^8.59.0",
     "@vitejs/plugin-react": "^4.3.1",
     "cypress": "^13.13.0",
     "eslint": "^8.57.0",
@@ -40,7 +40,6 @@
     "prettier": "^3.3.2",
     "sass": "^1.77.8",
     "stylelint": "^16.7.0",
-    "stylelint-scss": "^6.14.0",
     "typescript": "^5.2.2",
     "vite": "^5.3.1"
   },
@@ -69,6 +68,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "overrides": {
+    "@mate-academy/stylelint-config": {
+      "stylelint-scss": "^6"
+    }
   },
   "mateAcademy": {
     "_comment": "Replace 'reactTypescript' with 'react' if you want use React without Typescript",
